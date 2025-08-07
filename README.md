@@ -13,7 +13,6 @@ It manages authors, books, users, and loan transactions; provides API documentat
 - **Loan Transactions**: Borrow books, return books, list active/overdue loans, enforce max active-loan limit
 - **Authentication**: JWT-based login, secure endpoint access
 - **API Documentation**: Swagger UI integration
-- **Database Management**: Flyway migrations
 
 ---
 
@@ -22,7 +21,6 @@ It manages authors, books, users, and loan transactions; provides API documentat
 - **Backend**: Java 17, Spring Boot
 - **Database**: PostgreSQL
 - **ORM**: Hibernate / JPA
-- **Migrations**: Flyway
 - **Security**: Spring Security, JWT
 - **Docs**: springdoc-openapi (Swagger UI)
 - **Build**: Maven
@@ -47,7 +45,6 @@ src
 │   │   └── LibraryTrackerApplication.java
 │   └── resources
 │       ├── application.yml  # Configuration
-│       └── db/migration/    # Flyway SQL migrations
 └── test                     # Tests
 ```
 
