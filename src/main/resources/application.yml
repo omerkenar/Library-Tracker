@@ -2,9 +2,9 @@ spring:
   application:
     name: LibraryTracker
   datasource:
-    url: ${SPRING_DATASOURCE_URL:jdbc:postgresql://localhost:5432/omer}
-    username: ${SPRING_DATASOURCE_USERNAME:postgres}
-    password: ${SPRING_DATASOURCE_PASSWORD:123}
+    url: ${SPRING_DATASOURCE_URL:jdbc:postgresql://localhost:5432/changeMe}
+    username: ${SPRING_DATASOURCE_USERNAME:changeMe}
+    password: ${SPRING_DATASOURCE_PASSWORD:changeMe}
   jpa:
     hibernate:
       ddl-auto: update
