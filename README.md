@@ -1,7 +1,7 @@
 # 📚 LibraryTracker
 
 LibraryTracker is a **Spring Boot + PostgreSQL** based **library management system** secured with JWT.  
-It manages authors, books, users, and loan transactions; provides API documentation via Swagger, and handles database migrations with Flyway.
+It manages authors, books, users, and loan transactions; provides API documentation via Swagger.
 
 ---
 
